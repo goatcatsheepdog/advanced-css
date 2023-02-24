@@ -1,0 +1,45 @@
+
+
+
+.header{
+   background-color: #606060; 
+   display: flex;
+   justify-content:center;
+   margin-left: 100;
+   padding-left:100;
+   border:solid 2px
+   
+
+}
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.item{
+    margin: 100px;
+    position:relative
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+body{
+    background-color: #bbbbbb;
+}
+.item:hover p{
+    opacity: 1;
+    color:deeppink;
+    font-size: 20px;
+}
+.item:hover img{
+    opacity: 1;
+}
+.item img{
+
+    opacity: 0.5; 
+}
